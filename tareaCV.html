@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <!-- Incorporar Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-top: 15px;
+        }
+        .section {
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .section h2 {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: -20px -20px 20px -20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section li {
+            background-color: #e9ecef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .section li:hover {
+            background-color: #ced4da;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #343a40;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .header, .footer {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Jehnson Cárcamo</h1>
+        <img src="imagenes/Imagen1.png" width="100" alt="Jehnson Carcamo">
+        <p>Email: jehnson.carcamo@unah.hn</p>
+        <p>Dirección: Calle 6, Tangamandapio, México</p>
+        <p>Teléfono: +504 777 7890</p>
+    </header>
+    <section class="section">
+        <h2>Educación</h2>
+        <ul>
+            <li>Escuela Primaria: PALMEC</li>
+            <li>Escuela Secundaria: Instituto San Antonio</li>
+            <li>Universidad: UNAH, pasante Ing. de Sistemas</li>
+        </ul>
+    </section>
+    <section class="section">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+            <li>Docente Informatica - Instituto San Antonio</li>
+            <li>Instructor Informatica - Academia Jireh</li>
+            <li>Elaboración de una tienda en línea - <a href="" class="btn btn-primary">Visitar Tienda</a></li>
+        </ul>
+    </section>
+    <section class="section">
+        <h2>Cursos Recibidos</h2>
+        <ul>
+            <li>Curso CCNA Cisco, 2023</li>
+        </ul>
+    </section>
+    <section class="section">
+        <h2>Habilidades y otros aspectos</h2>
+        <ul>
+            <li>Capacidad de análisis y resolución de problemas</li>
+            <li>Trabajo en equipo y liderazgo</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        Jehnson Cárcamo © 2024
+    </footer>
+</body>
+</html>
